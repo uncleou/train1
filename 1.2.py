@@ -57,7 +57,7 @@ print(f"\n最优K值为: {optimal_k}")
 print(f"最优K值对应的准确率: {max(accuracy_scores):.4f}")
 
 # 1）分析为何选择该K值
-print("\n选择该K值的原因分析：")
+
 print(f"当K={optimal_k}时，模型在测试集上达到最高准确率。")
 print("较小的K值可能导致模型过拟合（方差大），较大的K值可能导致模型欠拟合（偏差大）。")
 print(f"K={optimal_k}是偏差和方差权衡的最佳点，能较好地泛化到新数据。")
