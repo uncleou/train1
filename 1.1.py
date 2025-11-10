@@ -145,7 +145,7 @@ plt.tight_layout()
 plt.savefig('insurance_true_vs_pred.png', dpi=300, bbox_inches='tight')
 plt.close()  # 关闭图表，释放内存
 
-print("单张可视化图已保存为: insurance_true_vs_pred.png")
+
 
 print(f"\n预测结果示例（前5个样本）:")
 comparison = pd.DataFrame({
